@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Tutorial</title>
+</head>
+<body>
+    <script>
+        var balance = 10000;
+        //1st transaction
+        var atm1 = balance - 100;
+        document.write("ATM1 : Amt Received " + atm1);
+        document.write("<br>");
+        balance = atm1;
+        //2nd transaction
+        var atm2 = balance - 500;
+        document.write("ATM2 : Amt Received " + atm2);
+        balance = atm2;
+        document.write("<br>");
+        //3rs transaction 
+        var atm3 = balance - 600;
+        document.write("ATM3 : Amt Received " + atm3);
+        balance = atm3;
+        document.write("<br>");
+
+    </script>
+</body>
+</html>
